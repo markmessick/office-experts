@@ -118,7 +118,7 @@ function optionChanged() {
     //     type: "line"
     // };
     var layout = {
-        title: "Collection Rate (By Month)"
+        title: "Summary Statistics (By Month)"
     };
     var plot1 = [traceB1, traceA1];
     Plotly.newPlot("plot1", plot1, layout);
